@@ -89,8 +89,3 @@ body::before{content:"";position:fixed;inset:0;z-index:-3;pointer-events:none;ba
   .wa-copy strong{font-size:9px}.wa-rotator{font-size:8px;height:13px}.wa-rotator span{height:13px}
   @keyframes waRotate{0%,20%{transform:translateY(0);opacity:1}25%,95%{transform:translateY(-13px);opacity:.15}100%{transform:translateY(0);opacity:1}}
 }
-
-/* Performance: defer off-screen section rendering without changing the design */
-.section{content-visibility:auto;contain-intrinsic-size:760px;}
-.project-image img{content-visibility:auto;}
-@media (max-width:600px){.aurora{animation-duration:22s;filter:blur(78px);}}
