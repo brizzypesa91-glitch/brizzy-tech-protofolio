@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a2830"/><stop offset="1" stop-color="#20503f"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".20"/><stop offset="1" stop-color="#ffffff" stop-opacity=".05"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".32"/></filter>
+ <filter id="blur"><feGaussianBlur stdDeviation="34"/></filter>
+</defs>
+<rect width="1200" height="700" rx="34" fill="url(#bg)"/>
+<circle cx="1050" cy="110" r="170" fill="#fff" opacity=".08" filter="url(#blur)"/>
+<circle cx="130" cy="610" r="170" fill="#fff" opacity=".06" filter="url(#blur)"/>
+<rect x="42" y="38" width="1116" height="78" rx="20" fill="url(#glass)" stroke="#fff" stroke-opacity=".18"/>
+<text x="76" y="72" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="2">NURSERY &amp; PRIMARY • ENGLISH MEDIUM</text>
+<text x="76" y="99" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="850">Sabisa Schools</text>
+
+<rect x="72" y="152" width="1056" height="452" rx="28" fill="#fff" fill-opacity=".10" stroke="#fff" stroke-opacity=".18" filter="url(#shadow)"/>
+<rect x="98" y="180" width="1004" height="180" rx="22" fill="#fff" fill-opacity=".08"/>
+<circle cx="938" cy="226" r="56" fill="#ffe29a" opacity=".92"/><path d="M98 342 Q290 245 470 333 T850 315 T1102 325 V360 H98Z" fill="#79c77a" opacity=".8"/>
+<path d="M120 314 Q300 240 450 300 T790 288 T1080 292 V360 H120Z" fill="#4e9c62" opacity=".75"/>
+<rect x="130" y="220" width="330" height="118" rx="18" fill="#fff" fill-opacity=".13"/>
+<text x="154" y="260" fill="#fff" font-family="Arial" font-size="25" font-weight="900">GROW. LEARN. SHINE.</text>
+<text x="154" y="287" fill="#fff" opacity=".63" font-family="Arial" font-size="12">A welcoming digital front door for families.</text>
+<circle cx="552" cy="270" r="19.8" fill="#c98762"/><path d="M 532.2 265.5 q 22 -28 39.6 0 v 8 h -39.6z" fill="#25252a"/>
+<path d="M 508.8 313.2 q 48 -35 86.4 0 v 58.5 h -86.4z" fill="#1e7e5c"/>
+<circle cx="544.8" cy="270" r="2.5" fill="#202027"/><circle cx="559.2" cy="270" r="2.5" fill="#202027"/><circle cx="640" cy="266" r="21.119999999999997" fill="#c98762"/><path d="M 618.88 261.2 q 22 -28 42.239999999999995 0 v 8 h -42.239999999999995z" fill="#25252a"/>
+<path d="M 593.92 312.08 q 48 -35 92.16 0 v 62.4 h -92.16z" fill="#d9a23f"/>
+<circle cx="632.32" cy="266" r="2.5" fill="#202027"/><circle cx="647.68" cy="266" r="2.5" fill="#202027"/><circle cx="730" cy="276" r="19.8" fill="#c98762"/><path d="M 710.2 271.5 q 22 -28 39.6 0 v 8 h -39.6z" fill="#25252a"/>
+<path d="M 686.8 319.2 q 48 -35 86.4 0 v 58.5 h -86.4z" fill="#315ba6"/>
+<circle cx="722.8" cy="276" r="2.5" fill="#202027"/><circle cx="737.2" cy="276" r="2.5" fill="#202027"/><circle cx="818" cy="268" r="20.9" fill="#c98762"/><path d="M 797.1 263.25 q 22 -28 41.8 0 v 8 h -41.8z" fill="#25252a"/>
+<path d="M 772.4 313.6 q 48 -35 91.19999999999999 0 v 61.75 h -91.19999999999999z" fill="#8b4f9d"/>
+<circle cx="810.4" cy="268" r="2.5" fill="#202027"/><circle cx="825.6" cy="268" r="2.5" fill="#202027"/><circle cx="905" cy="276" r="19.8" fill="#c98762"/><path d="M 885.2 271.5 q 22 -28 39.6 0 v 8 h -39.6z" fill="#25252a"/>
+<path d="M 861.8 319.2 q 48 -35 86.4 0 v 58.5 h -86.4z" fill="#2e8d83"/>
+<circle cx="897.8" cy="276" r="2.5" fill="#202027"/><circle cx="912.2" cy="276" r="2.5" fill="#202027"/>
+<rect x="96" y="389" width="1006" height="182" rx="22" fill="#071521" fill-opacity=".56" stroke="#fff" stroke-opacity=".10"/>
+<rect x="125" y="418" width="260" height="112" rx="18" fill="#fff" fill-opacity=".07"/><text x="150" y="450" fill="#fff" opacity=".55" font-family="Arial" font-size="10">SCHOOL LIFE</text><text x="150" y="482" fill="#fff" font-family="Arial" font-size="19" font-weight="800">Learning that feels alive.</text><text x="150" y="509" fill="#fff" opacity=".52" font-family="Arial" font-size="10">Activities • classes • community</text>
+<rect x="408" y="418" width="260" height="112" rx="18" fill="#fff" fill-opacity=".07"/><text x="433" y="450" fill="#fff" opacity=".55" font-family="Arial" font-size="10">ACADEMICS</text><text x="433" y="482" fill="#fff" font-family="Arial" font-size="19" font-weight="800">Bright futures.</text><text x="433" y="509" fill="#fff" opacity=".52" font-family="Arial" font-size="10">Programs built for growing minds</text>
+<rect x="691" y="418" width="380" height="112" rx="18" fill="#fff" fill-opacity=".07"/><text x="716" y="450" fill="#fff" opacity=".55" font-family="Arial" font-size="10">ADMISSIONS</text><text x="716" y="482" fill="#fff" font-family="Arial" font-size="19" font-weight="800">Discover the school.</text><text x="716" y="509" fill="#fff" opacity=".52" font-family="Arial" font-size="10">A clear path from first visit to enrolment</text>
+<rect x="42" y="638" width="1116" height="1" fill="#fff" opacity=".14"/>
+<text x="76" y="672" fill="#fff" opacity=".62" font-family="Inter,Arial,sans-serif" font-size="13">Young minds • strong foundations • brighter futures</text>
+</svg>

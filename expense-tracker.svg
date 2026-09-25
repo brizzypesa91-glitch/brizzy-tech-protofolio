@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07110e"/><stop offset=".55" stop-color="#10231c"/><stop offset="1" stop-color="#162016"/></linearGradient>
+ <linearGradient id="money" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#67f2bd"/><stop offset="1" stop-color="#ffd166"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".38"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<rect width="1200" height="700" rx="34" fill="url(#bg)"/>
+<circle cx="1020" cy="100" r="160" fill="#67f2bd" opacity=".10" filter="url(#glow)"/><circle cx="180" cy="620" r="150" fill="#ffd166" opacity=".07" filter="url(#glow)"/>
+<rect x="42" y="34" width="1116" height="82" rx="20" fill="#ffffff" fill-opacity=".07" stroke="#fff" stroke-opacity=".14"/>
+<text x="72" y="68" fill="#67f2bd" font-family="Arial" font-size="13" font-weight="800" letter-spacing="2.2">PERSONAL FINANCE DASHBOARD</text><text x="72" y="98" fill="#fff" font-family="Arial" font-size="27" font-weight="800">Expense Tracker</text>
+<rect x="62" y="142" width="1076" height="492" rx="28" fill="#07100e" fill-opacity=".8" stroke="#fff" stroke-opacity=".12" filter="url(#shadow)"/>
+<text x="90" y="185" fill="#9eb1aa" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.6">OVERVIEW</text><text x="90" y="221" fill="#fff" font-family="Arial" font-size="26" font-weight="800">Vision Goal</text>
+<rect x="90" y="246" width="1018" height="126" rx="20" fill="#fff" fill-opacity=".045" stroke="#fff" stroke-opacity=".08"/>
+<rect x="112" y="270" width="236" height="78" rx="15" fill="#67f2bd" fill-opacity=".12" stroke="#67f2bd" stroke-opacity=".24"/><text x="130" y="293" fill="#9deecb" font-family="Arial" font-size="10">TOTAL BALANCE</text><text x="130" y="329" fill="#fff" font-family="Arial" font-size="24" font-weight="800">TZS 2,480,000</text>
+<rect x="366" y="270" width="236" height="78" rx="15" fill="#58d8ff" fill-opacity=".08" stroke="#58d8ff" stroke-opacity=".2"/><text x="384" y="293" fill="#a5ddec" font-family="Arial" font-size="10">THIS MONTH</text><text x="384" y="329" fill="#fff" font-family="Arial" font-size="24" font-weight="800">+ TZS 680,000</text>
+<rect x="620" y="270" width="236" height="78" rx="15" fill="#ff866f" fill-opacity=".07" stroke="#ff866f" stroke-opacity=".18"/><text x="638" y="293" fill="#ffb0a1" font-family="Arial" font-size="10">EXPENSES</text><text x="638" y="329" fill="#fff" font-family="Arial" font-size="24" font-weight="800">TZS 214,500</text>
+<rect x="874" y="270" width="212" height="78" rx="15" fill="#ffd166" fill-opacity=".08" stroke="#ffd166" stroke-opacity=".2"/><text x="892" y="293" fill="#f6d991" font-family="Arial" font-size="10">GOAL</text><text x="892" y="329" fill="#fff" font-family="Arial" font-size="24" font-weight="800">72%</text>
+<rect x="90" y="398" width="600" height="202" rx="20" fill="#fff" fill-opacity=".035" stroke="#fff" stroke-opacity=".08"/><text x="114" y="432" fill="#fff" font-family="Arial" font-size="13" font-weight="700">Cash flow</text><text x="114" y="454" fill="#83958e" font-family="Arial" font-size="10">Income vs expenses</text>
+<path d="M120 550 C180 515 210 525 260 495 S350 510 410 462 S510 475 565 430 S640 452 665 414" fill="none" stroke="url(#money)" stroke-width="5" stroke-linecap="round"/><path d="M120 550 C180 515 210 525 260 495 S350 510 410 462 S510 475 565 430 S640 452 665 414 L665 575 L120 575Z" fill="#67f2bd" opacity=".055"/>
+<rect x="712" y="398" width="396" height="202" rx="20" fill="#fff" fill-opacity=".035" stroke="#fff" stroke-opacity=".08"/><text x="736" y="432" fill="#fff" font-family="Arial" font-size="13" font-weight="700">Recent transactions</text><text x="736" y="465" fill="#9aa9a4" font-family="Arial" font-size="11">Salary</text><text x="1010" y="465" fill="#67f2bd" font-family="Arial" font-size="11" text-anchor="end">+ 850,000</text><text x="736" y="503" fill="#9aa9a4" font-family="Arial" font-size="11">Groceries</text><text x="1010" y="503" fill="#ff866f" font-family="Arial" font-size="11" text-anchor="end">− 84,500</text><text x="736" y="541" fill="#9aa9a4" font-family="Arial" font-size="11">Transport</text><text x="1010" y="541" fill="#ff866f" font-family="Arial" font-size="11" text-anchor="end">− 32,000</text><rect x="736" y="558" width="320" height="1" fill="#fff" opacity=".08"/>
+</svg>

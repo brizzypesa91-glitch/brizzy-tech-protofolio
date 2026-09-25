@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brizzy Technologies</title>
+    <meta name="description" content="Brizzy Technologies — professional websites, web apps and responsive digital experiences.">
+    <title>Brizzy Technologies — Professional Web Development</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="aurora aurora-one"></div>
+<div class="aurora aurora-two"></div>
+<div class="aurora aurora-three"></div>
+<div class="noise"></div>
 
 <header class="navbar">
-    <a href="#home" class="logo">Brizzy<span>Dev</span></a>
-
+    <a href="#home" class="logo animated-brand">Brizzy <span>Technologies</span></a>
     <nav class="nav-links">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
@@ -19,80 +23,70 @@
         <a href="#why-me">Why Me</a>
         <a href="#contact">Contact</a>
     </nav>
-
-    <a href="#contact" class="talk-btn">Let's Talk <span>↗</span></a>
+    <a href="#contact" class="talk-btn animated-border"><span>Let's Talk</span><span class="arrow">↗</span></a>
 </header>
 
 <main>
     <section class="hero" id="home">
         <div class="hero-content">
             <p class="welcome">WELCOME TO MY DIGITAL SPACE</p>
-            <h1>Brizzy <span>Dev</span></h1>
+            <h1 class="animated-brand">Brizzy <span>Technologies</span></h1>
             <h2>Professional Web Developer</h2>
-            <p class="hero-text">I build high-performing, responsive and visually stunning websites that help businesses grow.</p>
-
-            <div class="skills">
-                <div class="skill">
-                    <div class="skill-icon">
-                        <svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9l-2 3 2 3M11 15h5"/></svg>
-                    </div>
-                    <div>
-                        <h3>HTML</h3>
-                        <p>Modern website structure and clean markup.</p>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-icon">
-                        <svg viewBox="0 0 24 24"><path d="M12 3l7 3-1 11-6 4-6-4L5 6l7-3zM8 9h8M8.5 13h7"/></svg>
-                    </div>
-                    <div>
-                        <h3>CSS</h3>
-                        <p>Beautiful responsive designs and animations.</p>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-icon">
-                        <svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM9 9v6M15 9v6M7 12h10"/></svg>
-                    </div>
-                    <div>
-                        <h3>JavaScript</h3>
-                        <p>Interactive features and smooth user experiences.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hero-actions">
-                <a href="#projects" class="primary-btn">View Projects <span>↗</span></a>
-                <a href="#contact" class="secondary-btn">Contact Me</a>
-            </div>
+            <p class="hero-text">I build high-performance, responsive and visually refined websites that help businesses, schools, restaurants and brands grow online.</p>
         </div>
 
         <div class="hero-image">
             <div class="profile-container">
-                <div class="profile-ring">
-                    <img src="devimg.png" alt="Brizzy Dev">
+                <div class="profile-ring animated-ring">
+                    <img src="devimg.png" alt="Brizzy Technologies">
                 </div>
+            </div>
+            <div class="hero-actions">
+                <a href="#projects" class="primary-btn animated-border"><span>View Projects</span><span class="arrow">↗</span></a>
+                <a href="#contact" class="secondary-btn animated-border"><span>Contact Me</span></a>
+            </div>
+        </div>
+
+        <div class="skills" aria-label="Development skills">
+            <div class="skill skill-html">
+                <div class="skill-icon html-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h16l-1.5 17-6.5 2-6.5-2L4 3z"/><path d="M8 8h8M8.5 12.5h7M9 16l3 1 3-1"/></svg></div>
+                <div><h3>HTML</h3><p>Semantic structure</p></div>
+            </div>
+            <div class="skill skill-css">
+                <div class="skill-icon css-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h16l-1.5 17-6.5 2-6.5-2L4 3z"/><path d="M8 8h8M8 12h7M9 16h6"/></svg></div>
+                <div><h3>CSS</h3><p>Modern interfaces</p></div>
+            </div>
+            <div class="skill skill-js">
+                <div class="skill-icon js-icon"><span>JS</span></div>
+                <div><h3>JavaScript</h3><p>Interactive experiences</p></div>
+            </div>
+            <div class="skill skill-python">
+                <div class="skill-icon python-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c-4.2 0-4.5 2.4-4.5 4.1v2.4h5.3v1.4H5.8C3.6 10.9 3 12.6 3 15s.7 4.1 2.9 4.1h2.1v-2.7c0-2.2 1.2-3.7 3.7-3.7h4.6c1.9 0 3.7-1.1 3.7-3.6V7.1C20 4.4 18.3 3 15.8 3H12z"/><path d="M12 21c4.2 0 4.5-2.4 4.5-4.1v-2.4h-5.3v-1.4h7c2.2 0 2.8-1.7 2.8-4.1s-.7-4.1-2.9-4.1H16v2.7c0 2.2-1.2 3.7-3.7 3.7H7.7C5.8 11.3 4 12.4 4 14.9v2c0 2.7 1.7 4.1 4.2 4.1H12z" opacity=".35"/></svg></div>
+                <div><h3>Python</h3><p>Apps & automation</p></div>
+            </div>
+            <div class="skill skill-react">
+                <div class="skill-icon react-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="12" rx="9" ry="3.5"/><ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/></svg></div>
+                <div><h3>React</h3><p>Component systems</p></div>
+            </div>
+            <div class="skill skill-git">
+                <div class="skill-icon git-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 11.1 12.9 3.6a1.9 1.9 0 0 0-2.7 0L8.7 5.1l2 2 1.1-1.1 4.7 4.7-1.1 1.1 1.9 1.9 3.1-3.1a1.9 1.9 0 0 0 0-2.7z"/><path d="M7.1 8.2 3.6 11.7a1.9 1.9 0 0 0 0 2.7l7.5 7.5a1.9 1.9 0 0 0 2.7 0l1.5-1.5-2-2-1.1 1.1-4.7-4.7 1.1-1.1-1.9-1.9-1.1 1.1"/></svg></div>
+                <div><h3>Git</h3><p>Version control</p></div>
             </div>
         </div>
     </section>
 
     <section class="section" id="about">
         <p class="section-label">ABOUT ME</p>
-        <h2 class="section-title">Turning ideas into <span>digital experiences.</span></h2>
+        <h2 class="section-title">I'm Bizzy, a <span>professional website developer.</span></h2>
+        <p class="section-lead">I turn your ideas into digital experiences.</p>
         <div class="about-content">
             <div class="about-card">
-                <div class="section-icon">
-                    <svg viewBox="0 0 24 24"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg>
-                </div>
+                <div class="section-icon"><svg viewBox="0 0 24 24"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg></div>
                 <h3>Creative Web Developer</h3>
                 <p>I create clean, modern and responsive websites that give brands a strong digital presence and make it easier for people to connect with them.</p>
             </div>
             <div class="about-card">
-                <div class="section-icon">
-                    <svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M5.5 5.5l13 13M18.5 5.5l-13 13"/></svg>
-                </div>
+                <div class="section-icon"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M5.5 5.5l13 13M18.5 5.5l-13 13"/></svg></div>
                 <h3>Focused on Quality</h3>
                 <p>Every layout, interaction and detail is built with usability, responsiveness and a polished modern feel in mind.</p>
             </div>
@@ -103,48 +97,30 @@
         <p class="section-label">MY SERVICES</p>
         <h2 class="section-title">What I can <span>build for you.</span></h2>
         <div class="service-grid">
-            <div class="service-card">
-                <div class="section-icon">
-                    <svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9l-2 3 2 3M11 15h5"/></svg>
-                </div>
-                <h3>Web Development</h3>
-                <p>Professional websites built to be fast, responsive and easy to use.</p>
-            </div>
-            <div class="service-card">
-                <div class="section-icon">
-                    <svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM7 8h10M7 12h6M7 16h8"/></svg>
-                </div>
-                <h3>Web Design</h3>
-                <p>Clean interfaces with modern layouts and a strong visual experience.</p>
-            </div>
-            <div class="service-card">
-                <div class="section-icon">
-                    <svg viewBox="0 0 24 24"><path d="M6 4h12v16H6zM9 8h6M9 12h6M9 16h4"/></svg>
-                </div>
-                <h3>Responsive Design</h3>
-                <p>Websites that adapt beautifully across phones, tablets and computers.</p>
-            </div>
+            <div class="service-card"><div class="section-icon"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9l-2 3 2 3M11 15h5"/></svg></div><h3>Web Development</h3><p>Professional websites built to be fast, responsive and easy to use.</p></div>
+            <div class="service-card"><div class="section-icon"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM7 8h10M7 12h6M7 16h8"/></svg></div><h3>Web Design</h3><p>Clean interfaces with modern layouts and a strong visual experience.</p></div>
+            <div class="service-card"><div class="section-icon"><svg viewBox="0 0 24 24"><path d="M6 4h12v16H6zM9 8h6M9 12h6M9 16h4"/></svg></div><h3>Responsive Design</h3><p>Websites that adapt beautifully across phones, tablets and computers.</p></div>
         </div>
     </section>
 
     <section class="section" id="projects">
         <p class="section-label">MY PROJECTS</p>
         <h2 class="section-title">Featured <span>Projects.</span></h2>
-        <div class="coming-soon">
-            <div class="section-icon">
-                <svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5M8 17h7"/></svg>
-            </div>
-            <div>
-                <span class="coming-label">COMING SOON</span>
-                <h3>Featured Projects</h3>
-                <p>Selected projects and new digital experiences will appear here soon.</p>
-            </div>
+        <p class="projects-intro">A selection of live websites designed and developed by Brizzy Technologies.</p>
+        <div class="project-grid">
+            <article class="project-card"><a class="project-image" href="https://css-study-lab.vercel.app/" target="_blank" rel="noopener"><img src="css-study-lab.svg" alt="CSS Study Lab preview" loading="lazy"><span class="preview-badge">Live site ↗</span></a><div class="project-body"><div><span class="project-category">Learning / CSS</span><h3>CSS STUDY LAB</h3><p>Visual CSS lessons, examples and an interactive playground.</p></div><a class="project-link" href="https://css-study-lab.vercel.app/" target="_blank" rel="noopener" aria-label="View CSS Study Lab">↗</a></div></article>
+            <article class="project-card"><a class="project-image" href="https://expense-tracker-btechs.vercel.app/" target="_blank" rel="noopener"><img src="expense-tracker.svg" alt="Expense Tracker preview" loading="lazy"><span class="preview-badge">Live site ↗</span></a><div class="project-body"><div><span class="project-category">Finance / Web App</span><h3>EXPENSE TRACKER</h3><p>Income, expenses, balance and financial goals in one dashboard.</p></div><a class="project-link" href="https://expense-tracker-btechs.vercel.app/" target="_blank" rel="noopener" aria-label="View Expense Tracker">↗</a></div></article>
+            <article class="project-card"><a class="project-image" href="https://ads-blog-site.vercel.app/" target="_blank" rel="noopener"><img src="https://ads-blog-site.vercel.app/assets/adsblog_online_opportunity.png" onerror="this.onerror=null;this.src='ads-blog-site.svg'" alt="Ads Blog preview" loading="lazy"><span class="preview-badge">Live site ↗</span></a><div class="project-body"><div><span class="project-category">Opportunity / Platform</span><h3>ADS BLOG</h3><p>A polished information platform for discovering opportunities.</p></div><a class="project-link" href="https://ads-blog-site.vercel.app/" target="_blank" rel="noopener" aria-label="View Ads Blog">↗</a></div></article>
+            <article class="project-card"><a class="project-image" href="https://victoria-schools.vercel.app/" target="_blank" rel="noopener"><img src="https://victoria-schools.vercel.app/assets/hero.jpg" onerror="this.onerror=null;this.src='victoria-schools.svg'" alt="Victoria Schools preview" loading="lazy"><span class="preview-badge">Live site ↗</span></a><div class="project-body"><div><span class="project-category">School / Education</span><h3>VICTORIA SCHOOLS</h3><p>Bright, welcoming pre & primary school experience.</p></div><a class="project-link" href="https://victoria-schools.vercel.app/" target="_blank" rel="noopener" aria-label="View Victoria Schools">↗</a></div></article>
+            <article class="project-card"><a class="project-image" href="https://sabisa-schools.vercel.app/" target="_blank" rel="noopener"><img src="https://sabisa-schools.vercel.app/assets/students.jpg" onerror="this.onerror=null;this.src='sabisa-schools.svg'" alt="Sabisa Schools preview" loading="lazy"><span class="preview-badge">Live site ↗</span></a><div class="project-body"><div><span class="project-category">School / Education</span><h3>SABISA SCHOOLS</h3><p>English Medium nursery and primary school showcase.</p></div><a class="project-link" href="https://sabisa-schools.vercel.app/" target="_blank" rel="noopener" aria-label="View Sabisa Schools">↗</a></div></article>
+            <article class="project-card"><a class="project-image" href="https://azul-restaurant.vercel.app/" target="_blank" rel="noopener"><img src="https://azul-restaurant.vercel.app/assets/Screenshot_20260911_143937_Instagram.jpg" onerror="this.onerror=null;this.src='azul-restaurant.svg'" alt="Azul Restaurant preview" loading="lazy"><span class="preview-badge">Live site ↗</span></a><div class="project-body"><div><span class="project-category">Restaurant / Hospitality</span><h3>AZUL RESTAURANT</h3><p>Food, atmosphere and a premium dining experience.</p></div><a class="project-link" href="https://azul-restaurant.vercel.app/" target="_blank" rel="noopener" aria-label="View Azul Restaurant">↗</a></div></article>
+            <article class="project-card project-card-last"><a class="project-image" href="https://smj-schools.vercel.app/" target="_blank" rel="noopener"><img src="https://smj-schools.vercel.app/assets/Screenshot_20260917_184240_Instagram.jpg" onerror="this.onerror=null;this.src='smj-schools.svg'" alt="SMJ Schools preview" loading="lazy"><span class="preview-badge">Live site ↗</span></a><div class="project-body"><div><span class="project-category">School / Education</span><h3>SMJ SCHOOLS</h3><p>Secondary school website focused on education and admissions.</p></div><a class="project-link" href="https://smj-schools.vercel.app/" target="_blank" rel="noopener" aria-label="View SMJ Schools">↗</a></div></article>
         </div>
     </section>
 
     <section class="section" id="why-me">
         <p class="section-label">WHY ME</p>
-        <h2 class="section-title">Why work with <span>Brizzy Dev?</span></h2>
+        <h2 class="section-title">Why work with <span>Brizzy Technologies?</span></h2>
         <div class="why-grid">
             <div class="why-card"><strong>01</strong><div><h3>Modern</h3><p>Clean and current web experiences built around your goals.</p></div></div>
             <div class="why-card"><strong>02</strong><div><h3>Responsive</h3><p>Your website stays usable and attractive on every screen size.</p></div></div>
@@ -155,43 +131,25 @@
     <section class="section" id="contact">
         <p class="section-label">GET IN TOUCH</p>
         <h2 class="section-title">Let's build something <span>great.</span></h2>
-
         <div class="contact-card">
             <p>Have a website idea, project or business you want to take online? Get in touch directly.</p>
-
             <div class="contact-list">
-                <a href="mailto:mentorbrizzy@gmail.com">
-                    <span class="contact-icon">
-                        <svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></svg>
-                    </span>
-                    <span><small>Email</small><strong>mentorbrizzy@gmail.com</strong></span>
-                </a>
-
-                <a href="tel:0724373741">
-                    <span class="contact-icon">
-                        <svg viewBox="0 0 24 24"><path d="M7 3h3l2 5-2 2c1 3 3 5 6 6l2-2 4 2v3c0 1-1 2-2 2C10 21 3 14 3 5c0-1 1-2 2-2h2z"/></svg>
-                    </span>
-                    <span><small>Calls / SMS</small><strong>0724373741</strong></span>
-                </a>
-
-                <a href="https://wa.me/255724373741" target="_blank" rel="noopener">
-                    <span class="contact-icon">
-                        <svg viewBox="0 0 24 24"><path d="M20 11.5A8.5 8.5 0 0 1 7.2 19L4 20l1-3.1A8.5 8.5 0 1 1 20 11.5zM8 9c1 3 3 5 6 6l1.5-1.5"/></svg>
-                    </span>
-                    <span><small>WhatsApp</small><strong>0724373741</strong></span>
-                </a>
+                <a href="mailto:mentorbrizzy@gmail.com"><span class="contact-icon"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></svg></span><span><small>Email</small><strong>mentorbrizzy@gmail.com</strong></span></a>
+                <a href="tel:0724373741"><span class="contact-icon"><svg viewBox="0 0 24 24"><path d="M7 3h3l2 5-2 2c1 3 3 5 6 6l2-2 4 2v3c0 1-1 2-2 2C10 21 3 14 3 5c0-1 1-2 2-2h2z"/></svg></span><span><small>Calls / SMS</small><strong>0724373741</strong></span></a>
+                <a href="https://wa.me/255724373741?text=Hello%20Brizzy%20Technologies%2C%20I%27d%20like%20to%20build%20a%20website." target="_blank" rel="noopener"><span class="contact-icon"><svg viewBox="0 0 24 24"><path d="M20 11.5A8.5 8.5 0 0 1 7.2 19L4 20l1-3.1A8.5 8.5 0 1 1 20 11.5zM8 9c1 3 3 5 6 6l1.5-1.5"/></svg></span><span><small>WhatsApp</small><strong>0724373741</strong></span></a>
             </div>
         </div>
     </section>
 </main>
 
-<footer class="footer">
-    <div>
-        <strong>Brizzy Technologies</strong>
-        <span>Made with <svg viewBox="0 0 24 24"><path d="M20.8 8.7c0 5.4-8.8 10-8.8 10s-8.8-4.6-8.8-10C3.2 5.6 5.3 3.5 8.1 3.5c1.6 0 3 .8 3.9 2 0.9-1.2 2.3-2 3.9-2 2.8 0 4.9 2.1 4.9 5.2z"/></svg> in Tanzania</span>
-    </div>
-    <p>© 2026 BreezyTech.co.ltd.</p>
-</footer>
+<a class="whatsapp-float" href="https://wa.me/255724373741?text=Hello%20Brizzy%20Technologies%2C%20I%27m%20interested%20in%20a%20website." target="_blank" rel="noopener" aria-label="Chat with Brizzy Technologies on WhatsApp">
+    <span class="whatsapp-icon"><svg viewBox="0 0 24 24"><path d="M20 11.5A8.5 8.5 0 0 1 7.2 19L4 20l1-3.1A8.5 8.5 0 1 1 20 11.5zM8.3 8.5c.4 2.5 2.3 4.7 5.1 5.8l1.6-1.5"/></svg></span>
+    <span class="wa-copy"><strong>Need a website?</strong><span class="wa-rotator"><span>Business website</span><span>School website</span><span>Restaurant website</span><span>Web app development</span></span></span>
+</a>
 
+<footer class="footer">
+    <div><strong class="animated-brand">Brizzy Technologies</strong><span>Made with <svg viewBox="0 0 24 24"><path d="M20.8 8.7c0 5.4-8.8 10-8.8 10S3.2 14.1 3.2 8.7C3.2 5.6 5.3 3.5 8.1 3.5c1.6 0 3 .8 3.9 2 0.9-1.2 2.3-2 3.9-2 2.8 0 4.9 2.1 4.9 5.2z"/></svg> in Tanzania</span></div>
+    <p>© 2026 BrizzyTech.co.ltd.</p>
+</footer>
 </body>
 </html>
